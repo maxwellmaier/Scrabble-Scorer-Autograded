@@ -113,7 +113,7 @@ function scorerPrompt() {
     );
   }
 
-  let selectedOption = input.question("Enter the number of your choice: ");
+  let selectedOption = input.question("Enter the number of your choice:  ");
 
   if (selectedOption >= 0 && selectedOption < scoringAlgorithms.length) {
     console.log(`\nUsing ${scoringAlgorithms[selectedOption].name}\n`);
